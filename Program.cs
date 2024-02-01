@@ -37,6 +37,7 @@
                             {
                                 Console.Clear();
                                 Console.WriteLine("Login avvenuto con successo.");
+                                Console.WriteLine($"Benvenuto: {username}");
                                 loggedIn = true;
                             }
                             else
